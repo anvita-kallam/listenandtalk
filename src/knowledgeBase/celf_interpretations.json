@@ -1,0 +1,256 @@
+[
+  {
+    "id": "receptive_below_avg",
+    "test_type": "Receptive Language Index",
+    "test_abbreviation": "RLI",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Below Average Receptive Language",
+    "summary": "Scores in this range suggest difficulty understanding spoken language relative to age expectations.",
+    "details": "Students scoring below -1 SD on the Receptive Language Index may struggle with following directions, understanding vocabulary, and comprehending complex sentences. Consider targeted interventions focusing on vocabulary development and listening comprehension.",
+    "source": "CELF-P3 Technical Manual, Chapter 4",
+    "recommendations": [
+      "Assess specific receptive language subskills",
+      "Consider environmental modifications",
+      "Implement vocabulary-building activities"
+    ]
+  },
+  {
+    "id": "receptive_below_avg_family",
+    "test_type": "Receptive Language Index",
+    "test_abbreviation": "RLI",
+    "score_range": { "max_z": -1.0 },
+    "audience": "family",
+    "title": "Understanding Spoken Language",
+    "summary": "Your child may need extra support understanding what others say.",
+    "details": "This score suggests your child might have difficulty understanding spoken language compared to other children their age. This can affect how well they follow directions or understand conversations.",
+    "source": "CELF-P3 Assessment Results",
+    "recommendations": [
+      "Use simple, clear language when giving directions",
+      "Break instructions into smaller steps",
+      "Check for understanding frequently"
+    ]
+  },
+  {
+    "id": "receptive_average",
+    "test_type": "Receptive Language Index",
+    "test_abbreviation": "RLI",
+    "score_range": { "min_z": -1.0, "max_z": 1.0 },
+    "audience": "clinician",
+    "title": "Average Receptive Language",
+    "summary": "Receptive language skills fall within the expected range for age.",
+    "details": "Scores within ±1 SD indicate typical receptive language development. Continue monitoring and provide age-appropriate language enrichment.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Maintain current language support",
+      "Continue monitoring progress",
+      "Provide language-rich environments"
+    ]
+  },
+  {
+    "id": "receptive_above_avg",
+    "test_type": "Receptive Language Index",
+    "test_abbreviation": "RLI",
+    "score_range": { "min_z": 1.0 },
+    "audience": "clinician",
+    "title": "Above Average Receptive Language",
+    "summary": "Strong receptive language skills relative to age expectations.",
+    "details": "Scores above +1 SD indicate advanced understanding of spoken language. Consider enrichment activities that challenge these strengths.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Provide advanced language opportunities",
+      "Encourage complex vocabulary use",
+      "Support peer interactions"
+    ]
+  },
+  {
+    "id": "expressive_below_avg",
+    "test_type": "Expressive Language Index",
+    "test_abbreviation": "ELI",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Below Average Expressive Language",
+    "summary": "Scores indicate difficulty expressing thoughts and ideas verbally.",
+    "details": "Students scoring below -1 SD on the Expressive Language Index may struggle with word finding, sentence formation, and narrative skills. Consider interventions targeting vocabulary retrieval, grammar, and discourse.",
+    "source": "CELF-P3 Technical Manual, Chapter 5",
+    "recommendations": [
+      "Target vocabulary expansion",
+      "Practice sentence formulation",
+      "Support narrative development"
+    ]
+  },
+  {
+    "id": "expressive_below_avg_family",
+    "test_type": "Expressive Language Index",
+    "test_abbreviation": "ELI",
+    "score_range": { "max_z": -1.0 },
+    "audience": "family",
+    "title": "Expressing Thoughts and Ideas",
+    "summary": "Your child may need help putting thoughts into words.",
+    "details": "This score suggests your child might find it challenging to express their ideas clearly. They may need more time to find the right words or put sentences together.",
+    "source": "CELF-P3 Assessment Results",
+    "recommendations": [
+      "Give your child time to respond",
+      "Model complete sentences",
+      "Encourage storytelling and conversation"
+    ]
+  },
+  {
+    "id": "expressive_average",
+    "test_type": "Expressive Language Index",
+    "test_abbreviation": "ELI",
+    "score_range": { "min_z": -1.0, "max_z": 1.0 },
+    "audience": "clinician",
+    "title": "Average Expressive Language",
+    "summary": "Expressive language skills are within expected range.",
+    "details": "Scores within ±1 SD indicate typical expressive language development. Continue providing language modeling and opportunities for practice.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Maintain language-rich interactions",
+      "Continue monitoring",
+      "Support vocabulary growth"
+    ]
+  },
+  {
+    "id": "core_language_below_avg",
+    "test_type": "Core Language Score",
+    "test_abbreviation": "CLS",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Below Average Overall Language",
+    "summary": "Overall language skills are below age expectations.",
+    "details": "The Core Language Score reflects overall language ability. Scores below -1 SD suggest comprehensive language support may be beneficial. Consider comprehensive language assessment and intervention planning.",
+    "source": "CELF-P3 Technical Manual, Chapter 3",
+    "recommendations": [
+      "Comprehensive language evaluation",
+      "Develop individualized intervention plan",
+      "Consider multidisciplinary assessment"
+    ]
+  },
+  {
+    "id": "core_language_below_avg_family",
+    "test_type": "Core Language Score",
+    "test_abbreviation": "CLS",
+    "score_range": { "max_z": -1.0 },
+    "audience": "family",
+    "title": "Overall Language Development",
+    "summary": "Your child's overall language skills may need extra support.",
+    "details": "This overall score looks at how well your child understands and uses language. It may indicate that additional support could help your child's language development.",
+    "source": "CELF-P3 Assessment Results",
+    "recommendations": [
+      "Work with your child's speech-language pathologist",
+      "Practice language skills at home",
+      "Attend recommended therapy sessions"
+    ]
+  },
+  {
+    "id": "receptive_expressive_gap",
+    "test_type": "Composite Comparison",
+    "score_range": { "min_z_diff": 1.0 },
+    "audience": "clinician",
+    "title": "Receptive-Expressive Language Discrepancy",
+    "summary": "Significant difference between receptive and expressive language skills.",
+    "details": "When receptive language significantly exceeds expressive language (≥1 SD difference), the student may understand more than they can express. This pattern suggests expressive language intervention may be particularly beneficial.",
+    "source": "CELF-P3 Technical Manual, Chapter 6",
+    "recommendations": [
+      "Focus intervention on expressive language",
+      "Use receptive strengths to support expression",
+      "Consider alternative communication supports"
+    ]
+  },
+  {
+    "id": "expressive_receptive_gap",
+    "test_type": "Composite Comparison",
+    "score_range": { "max_z_diff": -1.0 },
+    "audience": "clinician",
+    "title": "Expressive-Receptive Language Discrepancy",
+    "summary": "Expressive language exceeds receptive language skills.",
+    "details": "When expressive language significantly exceeds receptive language (≥1 SD difference), the student may express ideas beyond their comprehension level. Consider whether comprehension supports are needed.",
+    "source": "CELF-P3 Technical Manual, Chapter 6",
+    "recommendations": [
+      "Assess comprehension in natural contexts",
+      "Provide receptive language support",
+      "Monitor for comprehension breakdowns"
+    ]
+  },
+  {
+    "id": "sentence_comprehension_below",
+    "test_type": "Sentence Comprehension",
+    "test_abbreviation": "SC",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Difficulty Understanding Sentences",
+    "summary": "Challenges with sentence-level comprehension.",
+    "details": "Low scores on Sentence Comprehension suggest difficulty understanding grammatical structures and relationships within sentences. Consider grammar-focused intervention.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Target grammatical understanding",
+      "Use visual supports for sentence structure",
+      "Practice with varied sentence types"
+    ]
+  },
+  {
+    "id": "word_structure_below",
+    "test_type": "Word Structure",
+    "test_abbreviation": "WS",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Morphological Awareness Challenges",
+    "summary": "Difficulty with word forms and grammatical markers.",
+    "details": "Low scores on Word Structure indicate challenges with morphological rules (e.g., plurals, verb tenses, possessives). Morphological intervention may be beneficial.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Target morphological rules explicitly",
+      "Practice with word families",
+      "Use visual supports for word forms"
+    ]
+  },
+  {
+    "id": "expressive_vocab_below",
+    "test_type": "Expressive Vocabulary",
+    "test_abbreviation": "EV",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Limited Expressive Vocabulary",
+    "summary": "Vocabulary knowledge below age expectations.",
+    "details": "Low scores on Expressive Vocabulary suggest limited word knowledge for production. Vocabulary intervention focusing on high-frequency and curriculum-relevant words is recommended.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Implement vocabulary instruction",
+      "Use semantic mapping strategies",
+      "Provide multiple exposures to new words"
+    ]
+  },
+  {
+    "id": "formulated_sentences_below",
+    "test_type": "Formulated Sentences",
+    "test_abbreviation": "FD",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Sentence Formulation Challenges",
+    "summary": "Difficulty constructing grammatically correct sentences.",
+    "details": "Low scores on Formulated Sentences indicate challenges with sentence construction and grammar. Sentence-level intervention targeting syntax is recommended.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Practice sentence formulation",
+      "Target specific grammatical structures",
+      "Use sentence frames and models"
+    ]
+  },
+  {
+    "id": "recalling_sentences_below",
+    "test_type": "Recalling Sentences",
+    "test_abbreviation": "RS",
+    "score_range": { "max_z": -1.0 },
+    "audience": "clinician",
+    "title": "Working Memory for Language",
+    "summary": "Challenges with auditory memory for sentences.",
+    "details": "Low scores on Recalling Sentences may reflect working memory limitations or grammatical knowledge gaps. Consider both memory and language interventions.",
+    "source": "CELF-P3 Technical Manual",
+    "recommendations": [
+      "Assess working memory separately",
+      "Provide memory strategies",
+      "Support grammatical knowledge"
+    ]
+  }
+]
