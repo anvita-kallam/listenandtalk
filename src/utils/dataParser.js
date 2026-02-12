@@ -4,6 +4,8 @@
  * CELF-P3 normative assumptions:
  * - Standard scores: Mean = 100, SD = 15
  * - Scaled scores: Mean = 10, SD = 3
+ * 
+ * Handles CSV parsing, student extraction, and test name mapping
  */
 
 // Test name mappings from CSV column prefixes to display names
