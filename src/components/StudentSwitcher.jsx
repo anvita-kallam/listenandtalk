@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { getInitials, getAvatarGradient } from '../utils/avatarUtils'
 import './StudentSwitcher.css'
 
+// LocalStorage key for recent students
 const RECENT_KEY = 'lt_recent_students'
 
 /**

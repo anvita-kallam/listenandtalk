@@ -3,6 +3,8 @@
  * 
  * Computes z-scores, normative bands, and other derived metrics
  * from raw assessment scores.
+ * 
+ * Uses standard CELF-P3 normative parameters
  */
 
 /**
