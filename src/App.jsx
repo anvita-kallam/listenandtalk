@@ -10,6 +10,8 @@ import { calculateZScore, getNormativeBand } from './utils/scoreCalculator'
 import { processCSVData, getUniqueStudents, TEST_NAMES } from './utils/dataParser'
 import './App.css'
 
+// Main application component for CELF-P3 Assessment Dashboard
+
 function App() {
   const [data, setData] = useState([])
   const [students, setStudents] = useState([])
