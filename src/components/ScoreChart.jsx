@@ -3,6 +3,8 @@ import * as d3 from 'd3'
 import { getNormativeParams, getScoreInterpretation } from '../utils/dataParser'
 import './ScoreChart.css'
 
+// D3.js bell curve visualization component
+
 function ScoreChart({ testName, score, percentile, date, age }) {
   const svgRef = useRef(null)
   const containerRef = useRef(null)
