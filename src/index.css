@@ -33,6 +33,11 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  zoom: 0.9;
+  transform: scale(0.9);
+  transform-origin: top left;
+  width: 111.11%;
+  height: 111.11%;
 }
 
 code {
