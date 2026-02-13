@@ -5,6 +5,7 @@
   position: relative;
 }
 
+/* Background logo positioned at top right */
 .background-logo {
   position: fixed;
   top: 2rem;
