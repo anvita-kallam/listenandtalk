@@ -15,6 +15,8 @@ import './ClinicalInsightAssistant.css'
  * - Replace retrieval with semantic search (embeddings)
  * - Add LLM for natural language synthesis
  * - Implement conversational interface
+ * 
+ * Supports both clinician and family audience modes
  */
 function ClinicalInsightAssistant({ student, assessments }) {
   const [audience, setAudience] = useState('clinician')
