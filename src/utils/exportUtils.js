@@ -1,5 +1,7 @@
 /**
  * Export utilities for charts and reports
+ * 
+ * Supports text file export and print-friendly HTML reports
  */
 
 /**

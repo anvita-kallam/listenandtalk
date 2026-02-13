@@ -2,6 +2,8 @@ import React, { useMemo } from 'react'
 import { getScoreInterpretation, getNormativeParams } from '../utils/dataParser'
 import './InsightsPanel.css'
 
+// Automated insights panel for score analysis
+
 function InsightsPanel({ student, assessments }) {
   const insights = useMemo(() => {
     if (!assessments || assessments.length === 0) return []
