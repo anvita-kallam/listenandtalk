@@ -7,16 +7,16 @@
 
 .background-logo {
   position: fixed;
-  bottom: 2rem;
+  top: 2rem;
   right: 2rem;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-image: url('/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.6;
-  z-index: 0;
+  z-index: 10;
   pointer-events: none;
 }
 
@@ -82,8 +82,7 @@
 .insight-panel-tab {
   position: fixed;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 2rem;
   z-index: 100;
   background: var(--primary-color);
   color: white;
