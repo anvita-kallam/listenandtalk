@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { exportStudentReport, printStudentReport } from '../utils/exportUtils'
 import './ExportButton.css'
 
+// Export and print functionality for student reports
+
 function ExportButton({ student, assessments, insights = [] }) {
   const [isOpen, setIsOpen] = useState(false)
 
