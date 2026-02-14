@@ -1,6 +1,8 @@
 import React from 'react'
 import './KPICard.css'
 
+// Key Performance Indicator card component
+
 /**
  * KPI Card Component
  * Displays a key performance indicator with value, change percentage, and trend indicator
