@@ -10,6 +10,8 @@
  * - Replace exact matching with semantic similarity (embeddings)
  * - Use vector database for efficient retrieval
  * - Add reranking based on relevance scores
+ * 
+ * Currently uses deterministic matching logic
  */
 
 import interpretations from '../knowledgeBase/celf_interpretations.json'
