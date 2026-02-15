@@ -1,7 +1,7 @@
 {
   "name": "listen-talk-dashboard",
   "version": "1.0.0",
-  "description": "CELF-P3 Assessment Dashboard for Listen & Talk",
+  "description": "CELF-P3 Assessment Dashboard for Listen & Talk - Interactive data visualization and analysis tool",
   "private": true,
   "scripts": {
     "dev": "vite",
