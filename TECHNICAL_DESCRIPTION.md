@@ -1,5 +1,7 @@
 # Listen & Talk CELF-P3 Assessment Dashboard - Technical Description
 
+A comprehensive React-based dashboard for visualizing and analyzing CELF-P3 assessment results.
+
 ## Overview
 A React-based interactive data visualization dashboard for analyzing and presenting CELF-P3 (Clinical Evaluation of Language Fundamentals - Preschool, 3rd Edition) assessment results for a non-profit organization. The dashboard provides clinicians and families with comprehensive insights into student language development through statistical analysis and visual representations.
 
